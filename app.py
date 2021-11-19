@@ -36,8 +36,6 @@ lat_off = st.text_input('Dropoff Latitude', 'dropoff_latitude')
 lon_off = st.text_input('Dropoff longitude', 'dropoff_longitude')
 count = st.text_input('How many passengers?', 'passenger_count')
 
-#param = st.container()
-#param =
 
 params = {
     "key": ["key"],
