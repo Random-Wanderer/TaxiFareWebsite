@@ -29,12 +29,12 @@ See ? No need to load a `model.joblib` file in this app, we do not even need to 
 '''
 
 
-pickup = st.text_input('Date Time?', 'Enter Date and time for pick up')
-lon_up = st.text_input('Pickup Longitude', 'pickup_longitude')
-lat_up = st.text_input('Pickup Latitude', 'pickup_latitude')
-lat_off = st.text_input('Dropoff Latitude', 'dropoff_latitude')
-lon_off = st.text_input('Dropoff longitude', 'dropoff_longitude')
-count = st.text_input('How many passengers?', 'passenger_count')
+pickup = st.text_input('Date Time?', '2012-10-06 2012:10:20')
+lon_up = st.text_input('Pickup Longitude', '40.7614327')
+lat_up = st.text_input('Pickup Latitude', '-73.9798156')
+lat_off = st.text_input('Dropoff Latitude', '40.6513111')
+lon_off = st.text_input('Dropoff longitude', '-73.8803331')
+count = st.text_input('How many passengers?', '3')
 
 
 params = {
